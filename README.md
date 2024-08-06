@@ -32,3 +32,8 @@ function update() {
 
 loop();
 ```
+# Callable Variables
+Variable | What the value returns
+--- | --- 
+Mouse | Vector with x and y position of mouse
+frameCount | How many frames have been rendered 
