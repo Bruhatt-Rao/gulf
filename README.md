@@ -47,3 +47,5 @@ Function | Args | use | return value
 loop | none | starts update loop | returns looping binary value
 noloop | none | disables update loop | returns looping binary value
 noclear | none | disables clearing canvas every frame | returns clear binary value
+sin | (integer value theta) | calculates sin of theta | returns the sin of theta
+cos | (integer value theta) | calculates cos of theta | returns the cos of theta
