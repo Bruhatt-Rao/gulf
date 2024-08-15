@@ -44,5 +44,6 @@ canvas | has a .height value and a .width value of the display canvas
 # Callable Functions
 Function | Args | use | return value
 --- | --- | --- | ---
+loop | none | starts update loop | returns looping binary value
 noloop | none | disables update loop | returns looping binary value
 noclear | none | disables clearing canvas every frame | returns clear binary value
