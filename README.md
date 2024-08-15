@@ -32,8 +32,17 @@ function update() {
 
 loop();
 ```
-# Callable Variables
+# Values
 Variable | What the value returns
 --- | --- 
-Mouse | Vector with x and y position of mouse
+mouse | Vector with x and y position of mouse
 frameCount | How many frames have been rendered 
+looping | Binary value of if the update function is running every frame
+clear | Binary value of if canvas is being cleared every frame or not
+canvas | has a .height value and a .width value of the display canvas
+
+# Callable Functions
+Function | Args | use | return value
+--- | --- | --- | ---
+noloop | none | disables update loop | returns looping binary value
+noclear | none | disables clearing canvas every frame | returns clear binary value
