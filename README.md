@@ -82,7 +82,7 @@ loop();
 | `line`        | `(number x, number y, number x1, number y1)` | Draws a line between two points.             | None                         |
 | `triangle`    | `(number x, number y, number x1, number y1, number x2, number y2)` | Draws a filled triangle.                     | None                         |
 | `full`        | None                                    | Fills the entire canvas with the current fill style. | None                         |
-| `rect`        | `(number x, number y, number w=30, number h=30, boolean emiss)` | Draws a rectangle with optional emissive effect. | None                         |
+| `rect`        | `(number x, number y, number w=30, number h=30)` | Draws a rectangle with optional emissive effect. | None                         |
 | `point`       | `(number x, number y, number r=5)`      | Draws a filled point (circle).               | None                         |
 
 ## Classes
