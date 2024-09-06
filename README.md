@@ -54,7 +54,7 @@ loop();
 
 | Function      | Args                           | Usage                                          | Returns                                    |
 |---------------|--------------------------------|------------------------------------------------|--------------------------------------------|
-| `loop`        | None                           | Starts the update loop.                       | The current value of `looping`.            |
+| `loop`        | `(number delta (optional))`                           | Starts the update loop.                       | The current value of `looping`.            |
 | `noloop`      | None                           | Stops the update loop.                        | The current value of `looping`.            |
 | `noclear`     | None                           | Disables clearing the canvas every frame.     | The current value of `clear`.              |
 | `sin`         | `(number theta)`                | Calculates the sine of the given angle in radians. | The sine of the angle.                    |
