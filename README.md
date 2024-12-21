@@ -31,7 +31,7 @@ function init() {
 }
 
 function update() {
-  color("white");
+  color("black");
   ellipse(pos.x, pos.y);
 }
 
