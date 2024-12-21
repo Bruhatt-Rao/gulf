@@ -32,7 +32,7 @@ function init() {
 
 function update() {
   color("black");
-  ellipse(pos.x, pos.y);
+  ellipse(pos.x, pos.y, 5);
 }
 
 loop();
