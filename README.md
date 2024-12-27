@@ -54,15 +54,16 @@ loop();
 
 | Function      | Args                           | Usage                                          | Returns                                    |
 |---------------|--------------------------------|------------------------------------------------|--------------------------------------------|
-| `loop`        | `(number delta=20)`                           | Starts the update loop.                       | The current value of `looping`.            |
-| `noloop`      | None                           | Stops the update loop.                        | The current value of `looping`.            |
-| `noclear`     | None                           | Disables clearing the canvas every frame.     | The current value of `clear`.              |
-| `sin`         | `(number theta)`                | Calculates the sine of the given angle in radians. | The sine of the angle.                    |
-| `cos`         | `(number theta)`                | Calculates the cosine of the given angle in radians. | The cosine of the angle.                  |
+| `loop`        | `(number delta=20)`            | Starts the update loop.                        | The current value of `looping`.            |
+| `noloop`      | None                           | Stops the update loop.                         | The current value of `looping`.            |
+| `noclear`     | None                           | Disables clearing the canvas every frame.      | The current value of `clear`.              |
+| `sin`         | `(number theta)`               | Calculates the sine of the given angle in radians. | The sine of the angle.                    |
+| `cos`         | `(number theta)`               | Calculates the cosine of the given angle in radians. | The cosine of the angle.                  |
 | `randint`     | `(number min, number max)`     | Generates a random integer between `min` and `max`. | A random integer between `min` and `max`. |
+| `rand`        | None                           | Generates a random float between 0 and 1. | A random float between 0 and 1. |
 | `height`      | `(number h, number w)`         | Sets the canvas height and width.             | None                                       |
 | `load`        | `(string img)`                 | Loads an image from the specified URL.        | The loaded image object.                   |
-| `translate`   | `(number x, number y)`         | Translates the canvas context by `(x, y)`.   | None                                       |
+| `translate`   | `(number x, number y)`         | Translates the canvas context by `(x, y)`.    | None                                       |
 | `rotate`      | `(number a, string type="radians")` | Rotates the canvas context by angle `a`. | None                                       |
 | `save`        | None                           | Saves the current canvas state.               | None                                       |
 | `restore`     | None                           | Restores the last saved canvas state.         | None                                       |
